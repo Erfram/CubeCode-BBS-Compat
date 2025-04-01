@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "cubecode-bbs-compat",
+	"version": "${version}",
+	"name": "CubeCode BBS compat",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Llama"
+	],
+	"license": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International",
+	"icon": "assets/cubecode-bbs-compat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cubecode.bbscompat.CubeCodeBBSCompat"
+		]
+	},
+	"mixins": [
+		"cubecode-bbs-compat.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"bbs": "1.0.2-1.20.4",
+		"cubecode": "0.2"
+	}
+}
